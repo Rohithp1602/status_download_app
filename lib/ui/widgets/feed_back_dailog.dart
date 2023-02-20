@@ -8,6 +8,7 @@ class FeedBackDailog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return AlertDialog(
       title: "Feedback".textStyle(
           color: AppColors.appBarColor, size: 22, weight: FontWeight.w700),
