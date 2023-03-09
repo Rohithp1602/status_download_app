@@ -7,11 +7,11 @@ import 'package:structureproject/ui/main/video_player/video_player.dart';
 import 'package:structureproject/ui/widgets/common/video_list_card.dart';
 
 class CategotyDetailScreen extends StatelessWidget {
-  const CategotyDetailScreen({Key? key}) : super(key: key);
-
+   CategotyDetailScreen({Key? key}) : super(key: key);
+  HomeScreenCatagoryModel data = Get.arguments;
   @override
   Widget build(BuildContext context) {
-    HomeScreenCatagoryModel data = Get.arguments;
+
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 70,
